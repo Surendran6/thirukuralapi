@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  font-family: "Alata",sans-serif;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;  
+  background-image: url(img.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:rgb(100, 40, 40);
+  margin-top: 5rem;
+  font-weight: bolder;
+}
+#content{
+    color:rgb(88, 32, 218);
+}
+h1 {
+  margin: 5%;
+}
+
+.input-container div {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.input-container div div {
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+}
+
+input[type="number"] {
+  width: 130px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+span {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 47%;
+  font-size: 12px;
+  color: darkred;
+}
+
+table {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+table tbody tr td {
+  text-align: left;
+  padding: 10px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.data-container {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button{
+  width: 10%;
+  padding: 10px 5px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  font-size:18px ;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  border-radius:6px ;
+  background: linear-gradient(130deg,red,gold,blue);
+  background-size:200% 200% ;
+  animation: changebg 2s linear .4s infinite;
+}
+@keyframes changebg{
+  0%{
+      background-position: 10% 0% ;
+  }50% {
+      background-position: 91% 100% ;
+  }100%{
+      background-position: 10% 0% ;
+  }
+}
+
